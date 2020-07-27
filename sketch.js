@@ -275,7 +275,7 @@ class Particle {
                 this.image.width * death,
                 this.image.height * death);
         } catch (err) {
-            this.isFinished = true;
+            // this.isFinished = true;
             console.error('draw unsuccessful');
         }
         this.checkIfFinished();
